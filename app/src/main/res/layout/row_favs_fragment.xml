@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_favs_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/five_dp"
+    android:layout_marginRight="@dimen/five_dp"
+    android:layout_marginLeft="@dimen/five_dp"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/header_strip_logo_and_handle"
+            layout="@layout/include_header_strip_for_logo_and_handle"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            />
+
+
+        <ImageView
+            android:id="@+id/card_background_image_favs_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/three_hundred_dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/header_strip_logo_and_handle"
+            />
+
+        <include
+            layout="@layout/include_tittle_bottom_strip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/card_background_image_favs_fragment"
+            />
+
+        <include
+            layout="@layout/include_details_bottom_strip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_background_image_favs_fragment"
+            />
+        <include
+            layout="@layout/include_like_and_redeem"
+            android:layout_alignTop="@id/card_background_image_favs_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#66000000"
+    >
+
+    <com.ascentsmartwaves.andnrby.custom.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/deal_name_text_andnrby_fragment"
+        android:padding="@dimen/three_dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_sp"
+        android:textStyle="bold"
+        />
+
+
+    <com.ascentsmartwaves.andnrby.custom.CustomTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:id="@+id/deal_description_text_andnrby_fragment"
+        android:padding="@dimen/three_dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/deal_name_text_andnrby_fragment"
+        android:textSize="@dimen/eighteen_sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

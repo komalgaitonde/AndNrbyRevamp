@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+<!--&lt;!&ndash; the theme applied to the application or activity &ndash;&gt;-->
+<!--<style name="CustomActionBarTheme"-->
+<!--parent="@style/Theme.AppCompat.Light">-->
+<!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+<!--<item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>-->
+<!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+<!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+<!--<item name="actionBarTabStyle">@style/MyActionBarTabs</item>-->
+
+<!--</style>-->
+
+<!--&lt;!&ndash; ActionBar styles &ndash;&gt;-->
+<!--<style name="MyActionBar"-->
+<!--parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+<!--<item name="android:background">@color/actionBar_background</item>-->
+<!--<item name="android:icon">@drawable/ic_launcher</item>-->
+<!--<item name="android:backgroundStacked">@color/tab_color</item>-->
+
+<!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+<!--<item name="background">@color/actionBar_background</item>-->
+<!--<item name="icon">@drawable/ic_launcher</item>-->
+<!--<item name="backgroundStacked">@color/tab_color</item>-->
+<!--</style>-->
+
+<!--&lt;!&ndash; ActionBar styles&ndash;&gt;-->
+<!--<style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">-->
+<!--<item name="android:background">@drawable/actionbar_tab_indicator</item>-->
+
+<!--&lt;!&ndash; Support library compatibility&ndash;&gt;-->
+<!--<item name="background">@drawable/actionbar_tab_indicator</item>-->
+<!--</style>-->
+
+
+
+<!--</resources>-->
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--&lt;!&ndash; the theme applied to the application or activity &ndash;&gt;-->
+    <!--<style name="CustomActionBarTheme"-->
+        <!--parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+        <!--<item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>-->
+        <!--<item name="android:actionBarTabTextStyle">@style/ActionBarText</item>-->
+
+        <!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+        <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+        <!--<item name="actionBarTabStyle">@style/MyActionBarTabs</item>-->
+        <!--<item name="actionBarTabTextStyle">@style/ActionBarText</item>-->
+
+    <!--</style>-->
+
+    <!--&lt;!&ndash; ActionBar styles &ndash;&gt;-->
+    <!--<style name="MyActionBar"-->
+        <!--parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+
+        <!--<item name="android:icon">@drawable/ic_launcher</item>-->
+        <!--<item name="android:backgroundStacked">@color/tab_color</item>-->
+
+        <!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+
+        <!--<item name="icon">@drawable/ic_launcher</item>-->
+        <!--<item name="backgroundStacked">@color/tab_color</item>-->
+
+    <!--</style>-->
+
+    <!--&lt;!&ndash; ActionBar styles&ndash;&gt;-->
+    <!--<style name="MyActionBarTabs" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+        <!--<item name="android:background">@drawable/actionbar_tab_indicator</item>-->
+
+        <!--&lt;!&ndash;<item name="android:titleTextStyle">@style/ActionBarText</item>&ndash;&gt;-->
+
+        <!--&lt;!&ndash; Support library compatibility&ndash;&gt;-->
+        <!--<item name="background">@drawable/actionbar_tab_indicator</item>-->
+
+        <!--&lt;!&ndash;<item name="titleTextStyle">@style/ActionBarText</item>&ndash;&gt;-->
+
+    <!--</style>-->
+
+
+    <!--<style name="ActionBarText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">-->
+        <!--<item name="android:textColor">@color/textColor1</item>-->
+
+    <!--</style>-->
+<!--</resources>-->
+
+
+
+
+
+
+
+
+
+
+<resources>
+
+    <style name="CustomActionBarTheme" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabTextStyle">@style/MyActionBarTabText</item>
+
+    </style>
+
+    <!-- the below style : MyActionBar gives the white background to the tabs -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:backgroundStacked">@color/tab_color</item>
+
+        <!-- Support library compatibility -->
+        <item name="backgroundStacked">@color/tab_color</item>
+    </style>
+
+
+    <!--The below style : MyActionBarTabs gives us the red indicator for the tabs -->
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+    <style name="MyActionBarTabText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#000</item>
+    </style>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<resources>-->
+
+    <!--&lt;!&ndash; the theme applied to the application or activity &ndash;&gt;-->
+    <!--<style name="CustomActionBarTheme"-->
+    <!--parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--<item name="android:actionBarStyle">@style/MyActionBar</item>-->
+    <!--<item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>-->
+    <!--<item name="android:actionBarTabTextStyle">@style/ActionBarText</item>-->
+
+    <!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+    <!--<item name="actionBarStyle">@style/MyActionBar</item>-->
+    <!--<item name="actionBarTabStyle">@style/MyActionBarTabs</item>-->
+    <!--<item name="actionBarTabTextStyle">@style/ActionBarText</item>-->
+
+    <!--</style>-->
+
+    <!--&lt;!&ndash; ActionBar styles &ndash;&gt;-->
+    <!--<style name="MyActionBar"-->
+    <!--parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+
+    <!--<item name="android:icon">@drawable/ic_launcher</item>-->
+    <!--<item name="android:backgroundStacked">@color/tab_color</item>-->
+
+    <!--&lt;!&ndash; Support library compatibility &ndash;&gt;-->
+
+    <!--<item name="icon">@drawable/ic_launcher</item>-->
+    <!--<item name="backgroundStacked">@color/tab_color</item>-->
+
+    <!--</style>-->
+
+    <!--&lt;!&ndash; ActionBar styles&ndash;&gt;-->
+    <!--<style name="MyActionBarTabs" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">-->
+    <!--<item name="android:background">@drawable/actionbar_tab_indicator</item>-->
+
+    <!--&lt;!&ndash;<item name="android:titleTextStyle">@style/ActionBarText</item>&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Support library compatibility&ndash;&gt;-->
+    <!--<item name="background">@drawable/actionbar_tab_indicator</item>-->
+
+    <!--&lt;!&ndash;<item name="titleTextStyle">@style/ActionBarText</item>&ndash;&gt;-->
+
+    <!--</style>-->
+
+
+    <!--<style name="ActionBarText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">-->
+    <!--<item name="android:textColor">@color/textColor</item>-->
+
+    <!--</style>-->
+
+    <!--&lt;!&ndash;<item name="android:gravity">center</item>&ndash;&gt;-->
+
+    <!--</resources>-->
+
+
+
+
+

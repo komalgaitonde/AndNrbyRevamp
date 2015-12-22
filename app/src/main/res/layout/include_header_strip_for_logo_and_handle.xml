@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="#80FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/anbys_logo"
+        android:layout_width="@dimen/fifty_dp"
+        android:layout_height="@dimen/fifty_dp"
+        android:src="@drawable/logo"
+        android:padding="@dimen/five_dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_vertical"
+        />
+    <com.ascentsmartwaves.andnrby.custom.CustomTextView
+        android:id="@+id/brandName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="@dimen/twenty_sp"
+        android:textColor="@color/material_blue_grey_800"
+        android:padding="@dimen/five_dp"
+        android:layout_gravity="center_vertical"
+        />
+
+
+</LinearLayout>

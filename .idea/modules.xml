@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndNrbyRevamp.iml" filepath="$PROJECT_DIR$/AndNrbyRevamp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Komal.iml" filepath="$PROJECT_DIR$/Komal.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

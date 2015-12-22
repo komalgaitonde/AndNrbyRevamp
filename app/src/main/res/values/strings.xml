@@ -1,4 +1,16 @@
 <resources>
-    <string name="app_name">AndNrbyRevamp</string>
+    <string name="app_name">Komal</string>
+    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">336584449863793</string>
+    <string name="action_search">Search</string>
+    <string name="facebook_login_button_text">CONNECT WITH FACEBOOK</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <string name="version_number">Version 1.4.7</string>
+    <string name="referral_text">Thank your friend who introduced you to AndNrby! Enter their registered email ID and they win 50 cool points.</string>
+
 </resources>
